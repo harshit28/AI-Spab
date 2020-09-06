@@ -1,0 +1,95 @@
+export default {
+  bigStat: [
+    {
+      product: 'Cough',
+      total: '4,232',
+      color: 'primary',
+      registrations: {
+        value: 90,
+        profit: true,
+      },
+      bounce: {
+        value: 80,
+        profit: false,
+      },
+    },
+    {
+      product: 'Flu',
+      total: '754',
+      color: 'danger',
+      registrations: {
+        value: 40,
+        profit: true,
+      },
+      bounce: {
+        value: 60,
+        profit: true,
+      },
+    },
+    {
+      product: 'Fatigue',
+      total: '50',
+      color: 'info',
+      registrations: {
+        value: 30,
+        profit: true,
+      },
+      bounce: {
+        value: 70,
+        profit: false,
+      },
+    },
+  ],
+  table: [
+    {
+      id: 0,
+      name: '11 May 2020',
+      email: '10:00 A.M.',
+      product: 'Flu',
+      price: 'Tylenol',
+      date: '5',
+      city: 'severe',
+      status: 'CURED',
+    },
+    {
+      id: 1,
+      name: '21 February 2020',
+      email: '11:30 A.M.',
+      product: 'Flu',
+      price: 'Homeopathic',
+      date: '3',
+      city: 'mild',
+      status: 'NOT CURED',
+    },
+    {
+      id: 2,
+      name: '08 January 2020',
+      email: '06:30 P.M.',
+      product: 'Headache',
+      price: 'Tylenol',
+      date: '7',
+      city: 'severe',
+      status: 'CURED',
+    },
+    {
+      id: 3,
+      name: '22 December 2019',
+      email: '08:00 P.M.',
+      product: 'Cold',
+      price: 'modafinil',
+      date: '4',
+      city: 'moderate',
+      status: 'CURED',
+    },
+    {
+      id: 4,
+      name: '13 October 2019',
+      email: '10:50 A.M.',
+      product: 'Fever',
+      price: 'Sumatriptan',
+      date: '3',
+      city: 'mild',
+      status: 'CURED',
+    },
+  ],
+};

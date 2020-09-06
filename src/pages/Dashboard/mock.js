@@ -1,0 +1,95 @@
+export default {
+  bigStat: [
+    {
+      product: 'Cough',
+      total: '4,232',
+      color: 'primary',
+      registrations: {
+        value: 90,
+        profit: true,
+      },
+      bounce: {
+        value: 80,
+        profit: false,
+      },
+    },
+    {
+      product: 'Flu',
+      total: '754',
+      color: 'danger',
+      registrations: {
+        value: 40,
+        profit: true,
+      },
+      bounce: {
+        value: 60,
+        profit: true,
+      },
+    },
+    {
+      product: 'Fatigue',
+      total: '50',
+      color: 'info',
+      registrations: {
+        value: 30,
+        profit: true,
+      },
+      bounce: {
+        value: 70,
+        profit: false,
+      },
+    },
+  ],
+  table: [
+    {
+      id: 0,
+      name: 'Mark Otto',
+      email: 'ottoto@wxample.com',
+      product: '9472944932',
+      price: 'FLU',
+      date: '11 May 2017',
+      city: 'Tylenol',
+      status: 'Visited',
+    },
+    {
+      id: 1,
+      name: 'Jacob Thornton',
+      email: 'thornton@wxample.com',
+      product: '9164729483',
+      price: 'COLD',
+      date: '4 Jun 2017',
+      city: 'Homeopathic',
+      status: 'Visited',
+    },
+    {
+      id: 2,
+      name: 'Larry the Bird',
+      email: 'bird@wxample.com',
+      product: '9653872989',
+      price: 'LETHARGY',
+      date: '27 Aug 2017',
+      city: 'modafinil',
+      status: 'Not Visited',
+    },
+    {
+      id: 3,
+      name: 'Joseph May',
+      email: 'josephmay@wxample.com',
+      product: '9857483598',
+      price: 'FEVER',
+      date: '19 Feb 2018',
+      city: 'acetaminophen',
+      status: 'Visited',
+    },
+    {
+      id: 4,
+      name: 'Peter Horadnia',
+      email: 'horadnia@wxample.com',
+      product: '9372698990',
+      price: 'HEADACHE',
+      date: '1 Mar 2018',
+      city: 'Sumatriptan',
+      status: 'Not Visited',
+    },
+  ],
+};

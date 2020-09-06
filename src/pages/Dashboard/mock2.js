@@ -1,0 +1,95 @@
+export default {
+  bigStat: [
+    {
+      product: 'Cough',
+      total: '4,232',
+      color: 'primary',
+      registrations: {
+        value: 90,
+        profit: true,
+      },
+      bounce: {
+        value: 80,
+        profit: false,
+      },
+    },
+    {
+      product: 'Flu',
+      total: '754',
+      color: 'danger',
+      registrations: {
+        value: 40,
+        profit: true,
+      },
+      bounce: {
+        value: 60,
+        profit: true,
+      },
+    },
+    {
+      product: 'Fatigue',
+      total: '50',
+      color: 'info',
+      registrations: {
+        value: 30,
+        profit: true,
+      },
+      bounce: {
+        value: 70,
+        profit: false,
+      },
+    },
+  ],
+  table: [
+    {
+      id: 0,
+      name: '11 May 2020',
+      email: 'Itching',
+      product: '6',
+      price: '4',
+      date: 'Infection',
+      city: 'severe',
+      status: 'CURED',
+    },
+    {
+      id: 1,
+      name: '21 February 2020',
+      email: 'Itching',
+      product: '6',
+      price: '4',
+      date: 'Infection',
+      city: 'severe',
+      status: 'CURED',
+    },
+    {
+      id: 2,
+      name: '08 January 2020',
+      email: 'Stomach Ache',
+      product: '6',
+      price: '4',
+      date: 'Drug Reaction',
+      city: 'severe',
+      status: 'CURED',
+    },
+    {
+      id: 3,
+      name: '22 December 2019',
+      email: 'Vomiting',
+      product: '4',
+      price: '3',
+      date: 'Gastroenteritis',
+      city: 'severe',
+      status: 'CURED',
+    },
+    {
+      id: 4,
+      name: '13 October 2019',
+      email: 'chills',
+      product: '4',
+      price: '2',
+      date: 'Fever',
+      city: 'severe',
+      status: 'CURED',
+    },
+  ],
+};
