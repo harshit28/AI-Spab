@@ -259,13 +259,12 @@ export default {
       this.sendReq();
       // const dt = { data: { value: "gdfg1df2g2121dgfdg" }};
       // const request = axios.post(url, dt);
-      // axios
-      //   .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      // 	.then(response => (this.info = response))
-      // for (let i in this.Symptoms_mapping){
-      // 	this.sym.push(i)
-      // }
-      // this.auth()
+      var url = "http://localhost:5000/api/working";
+      axios.get(url)
+       	.then(response => {
+         console.log(response.data)
+         } )
+    
     },
   methods: {
     async sendReq() {
