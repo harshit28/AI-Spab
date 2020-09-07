@@ -259,7 +259,7 @@ export default {
       this.sendReq();
       // const dt = { data: { value: "gdfg1df2g2121dgfdg" }};
       // const request = axios.post(url, dt);
-      var url = "http://localhost:5000/api/working";
+      var url = "https://calm-sea-70186.herokuapp.com/api/working";
       axios.get(url)
        	.then(response => {
          console.log(response.data)
@@ -300,7 +300,7 @@ export default {
         }
         inputs.push(obj);
       }
-      var url = "http://localhost:5000/api/automl";
+      var url = "https://calm-sea-70186.herokuapp.com/api/automl";
       axios.post(url, inputs).then(response => {
         this.info = response.data
         this.disease = this.info.disease
