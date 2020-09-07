@@ -14,6 +14,7 @@ var modelId = 'TBL4730066037343518720'
 var port = process.env.PORT || 5000;
 app.listen(port);
 
+console.log("Running on Port",port)
 
 app.use('/', express.static(__dirname));
 app.use(bodyParser.json());
